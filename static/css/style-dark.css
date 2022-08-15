@@ -453,7 +453,7 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
-  border-top: 2px solid #c9cacc;
+  border-top: 0;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
@@ -1258,6 +1258,9 @@ article .content .caption {
 }
 .blog-post-comments {
   margin-top: 4rem;
+}
+#projects {
+  margin-bottom: 30px;
 }
 #footer {
   position: absolute;
