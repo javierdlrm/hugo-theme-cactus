@@ -325,7 +325,7 @@
     letter-spacing: 0.01em;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.5em;
+    font-size: 1.55rem;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
   }
@@ -333,19 +333,19 @@
   body .h2 {
     position: relative;
     display: block;
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
+    margin-top: 1.7rem;
+    margin-bottom: 0rem;
     color: #383838;
     text-transform: none;
     letter-spacing: normal;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
   body h3 {
     color: #383838;
     text-decoration: underline;
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   body h4,
   body h5,
@@ -464,13 +464,15 @@
     color: #383838;
     font-display: swap;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.92rem;
     font-family: "JetBrains Mono", monospace;
     line-height: 1.725;
     text-rendering: geometricPrecision;
     flex: 1;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+    letter-spacing: 0.1px;
+    word-spacing: 1px;
   }
   .content {
     position: relative;
@@ -570,7 +572,7 @@
   }
   @media (min-width: 480px) {
     p {
-      text-align: justify;
+      text-align: left;
     }
   }
   #header {
@@ -585,7 +587,7 @@
     letter-spacing: 0.01em;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     line-height: 2rem;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -596,7 +598,7 @@
     text-decoration: none;
   }
   #header #logo {
-    display: inline-block;
+    display: none;
     float: left;
     margin-right: 20px;
     width: 50px;
@@ -612,7 +614,7 @@
     letter-spacing: 0.01em;
     font-weight: 200;
     font-style: normal;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   #header #nav ul {
     margin: 0;
@@ -685,7 +687,7 @@
   }
   #header-post {
     position: fixed;
-    top: 2rem;
+    top: 3rem;
     right: 0;
     display: inline-block;
     float: right;
@@ -775,7 +777,7 @@
     line-height: 15px;
   }
   #header-post #nav ul a {
-    margin-right: 15px;
+    margin-right: 8px;
     color: #2bbc8a;
   }
   #header-post #nav ul a:hover {
@@ -1062,7 +1064,7 @@
   }
   .post-list .post-item .meta {
     display: block;
-    margin-right: 16px;
+    margin-right: 10px;
     min-width: 100px;
     color: #666;
     font-size: 14px;
@@ -1094,7 +1096,7 @@
     line-height: 1.25;
   }
   article header .meta {
-    margin-top: 0;
+    margin-top: 0.5rem;
     margin-bottom: 1rem;
   }
   article header .meta * {
@@ -1147,7 +1149,9 @@
     background: inherit;
     color: #2bbc8a;
     quotes: "\201C" "\201D" "\2018" "\2019";
-    font-weight: bold;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    font-size: 1rem;
   }
   article .content blockquote p {
     margin: 0;
@@ -1157,8 +1161,8 @@
     color: #2bbc8a;
     content: "\201C";
     vertical-align: -0.4em;
-    font-size: 2em;
-    line-height: 0.1em;
+    font-size: 2.3em;
+    line-height: 0rem;
   }
   article .content blockquote footer {
     margin: line-height 0;
@@ -1228,6 +1232,9 @@
       content: "|";
     }
   }
+  #archive {
+    margin-top: -1.2rem;
+  }
   #archive .post-list {
     padding: 0;
   }
@@ -1238,10 +1245,10 @@
   }
   #archive .post-list .post-item .meta {
     display: block;
-    margin-right: 16px;
+    margin-right: 10px;
     min-width: 100px;
     color: #666;
-    font-size: 14px;
+    font-size: 0.92rem;
   }
   @media (min-width: 480px) {
     #archive .post-list .post-item {
